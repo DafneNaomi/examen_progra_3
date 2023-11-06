@@ -1,0 +1,231 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "bag",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.3960171937942505,
+                0.3960171937942505,
+                0.3960171937942505
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "blinn1SG",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "initialShadingGroup",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "bag",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "LAST_BAG_LP_bag1_initialShadingGroup1_BaseColor",
+            "uri" : "LAST_BAG_LP_bag1_initialShadingGroup1_BaseColor.jpg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "LAST_BAG_LP_bag1_initialShadingGroup1_Metallic",
+            "uri" : "LAST_BAG_LP_bag1_initialShadingGroup1_Metallic.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 2375,
+            "max" : [
+                18.157386779785156,
+                4.576419830322266,
+                6.675844192504883
+            ],
+            "min" : [
+                -18.78052520751953,
+                -12.896041870117188,
+                -40.69124984741211
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2375,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2375,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 10206,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 2059,
+            "max" : [
+                11.63083267211914,
+                4.6964030265808105,
+                -0.5407050251960754
+            ],
+            "min" : [
+                -11.60258960723877,
+                -5.04201078414917,
+                -35.65284729003906
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 2059,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 2059,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 9036,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 28500,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 28500,
+            "byteOffset" : 28500
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 19000,
+            "byteOffset" : 57000
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 20412,
+            "byteOffset" : 76000
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24708,
+            "byteOffset" : 96412
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24708,
+            "byteOffset" : 121120
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 16472,
+            "byteOffset" : 145828
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18072,
+            "byteOffset" : 162300
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 180372,
+            "uri" : "mochila.bin"
+        }
+    ]
+}

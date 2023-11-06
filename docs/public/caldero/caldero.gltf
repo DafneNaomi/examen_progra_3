@@ -1,0 +1,143 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cylinder.003"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cylinder.006",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "\u041a\u041e\u0422\u0415\u041b_DefaultMaterial_BaseColor",
+            "uri" : "%D0%9A%D0%9E%D0%A2%D0%95%D0%9B_DefaultMaterial_BaseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "\u041a\u041e\u0422\u0415\u041b_DefaultMaterial_Metallic-\u0411\u0410\u041d\u041a\u0410_Material.003_Roughness",
+            "uri" : "%D0%9A%D0%9E%D0%A2%D0%95%D0%9B_DefaultMaterial_Metallic-%D0%91%D0%90%D0%9D%D0%9A%D0%90_Material_003_Roughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 10481,
+            "max" : [
+                4.585992336273193,
+                7.214244365692139,
+                4.585992336273193
+            ],
+            "min" : [
+                -4.585991859436035,
+                -4.774724960327148,
+                -4.585992336273193
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 10481,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 10481,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 51216,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 125772,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 125772,
+            "byteOffset" : 125772
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 83848,
+            "byteOffset" : 251544
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 102432,
+            "byteOffset" : 335392
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 437824,
+            "uri" : "caldero.bin"
+        }
+    ]
+}
